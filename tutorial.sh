@@ -1,16 +1,14 @@
 
 
 
-echo "======================================================================="
+
 echo "   GUIA PASSO A PASSO: TOPOLOGIA E CONFIGURAÇÃO COMPLETA DO LAB"
-echo "======================================================================="
-echo ""
 
 
 echo "-----------------------------------------------------------------------"
 echo "PASSO 1: CONSTRUÇÃO DA TOPOLOGIA FÍSICA"
 echo "-----------------------------------------------------------------------"
-echo "Monte a estrutura exatamente como na imagem do seu cenário:"
+echo "Monte a seguinte estrutura:"
 echo "1. [Roteador 2911] <---> Conectado via cabo cruzado/direto ao [Server0]"
 echo "   * Porta do Roteador: GigabitEthernet0/1"
 echo "   * Porta do Servidor: FastEthernet0"
@@ -30,9 +28,6 @@ echo "5. [PCs 4, 5, 6 e 7] <---> Conectados via Wi-Fi ao [Access Point0]"
 echo "   * Lembre-se: Desligar o PC -> Remover placa Fa0 -> Inserir WMP300N -> Ligar PC"
 echo ""
 
-read -p "Após montar o cenário físico, aperte [ENTER] para ver os comandos do Roteador..."
-
-clear
 echo "-----------------------------------------------------------------------"
 echo "PASSO 2: CONFIGURAÇÃO DO ROTEADOR (ROUTER1) - COPIE E COLE NA CLI"
 echo "-----------------------------------------------------------------------"
@@ -137,6 +132,4 @@ echo "2. O tempo voltará a rodar normalmente."
 echo "3. Olhe o Command Prompt do seu PC: ele exibirá o relatório final das"
 echo "   4 mensagens enviadas e 4 recebidas com sucesso!"
 echo ""
-echo "-----------------------------------------------------------------------"
-echo "               LABORATÓRIO CONCLUÍDO E HOMOLOGADO!"
-echo "======================================================================="
+echo "LABORATÓRIO CONCLUÍDO"
